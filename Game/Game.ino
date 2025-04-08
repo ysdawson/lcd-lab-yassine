@@ -17,7 +17,7 @@ void setup() {
 
 void loop() {
   lcd.clear();                 // Clear the LCD screen
-  lcd.print("Press to Start"); // Display instruction to the player
+  lcd.print("Hello, World !"); // Display instruction to the player
 
   // Just waiting here until the player presses the button (HIGH to LOW) 
   while (digitalRead(buttonPin) == HIGH) {} // DONT WORRY HOW THIS WORKS NOW
@@ -30,7 +30,7 @@ void loop() {
 }
 void reactionGame() {
   lcd.clear();    // Clear the LCD screen
-  lcd.print("GET READY !"); // Inform the player to get ready
+  lcd.print("REFLEX !"); // Inform the player to get ready
 
   // Generate a random delay between 3 to 6 seconds (3000-6000 ms) ...
   // Use the function random(); to help achieve that. Look it up how it works.

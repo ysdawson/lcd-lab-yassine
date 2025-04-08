@@ -1,5 +1,5 @@
 # lcd-lab-yassine
-                                            LCD REACTION GAME
+LCD REACTION GAME
 The code in this repo is a game that tests your reaction time by counting your reaction time after a message displays.
 
 The hardware used in this is an arduino uno, lcd display, push button and a computer to upload the code
